@@ -21,7 +21,7 @@ final class GoogleAuthService {
     func signInWithGoogle() async throws -> FirebaseAuth.User {
         // 1. Get the root view controller:
         guard let windowScene = await UIApplication.shared.connectedScenes.first as? UIWindowScene,
-              let rootViewController = await çwindowScene.windows.first?.rootViewController else {
+              let rootViewController = await windowScene.windows.first?.rootViewController else {
             throw AuthError.noRootViewController
         }
         

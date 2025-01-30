@@ -11,6 +11,7 @@
 		11A5047D2D4B86C500B58955 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 11A5047C2D4B86C500B58955 /* GoogleSignIn */; };
 		11A5047F2D4B86C500B58955 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11A5047E2D4B86C500B58955 /* GoogleSignInSwift */; };
 		11A504832D4B898D00B58955 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A504822D4B898D00B58955 /* AuthService.swift */; };
+		11A504852D4B8D1100B58955 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A504842D4B8D1100B58955 /* ViewModel.swift */; };
 		11A634962D4A1FF300055BC0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 11A634952D4A1FF300055BC0 /* FirebaseAuth */; };
 		11A634982D4A1FF300055BC0 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 11A634972D4A1FF300055BC0 /* FirebaseCore */; };
 		11A634A02D4A204500055BC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6349C2D4A204500055BC0 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 		11A504782D4B863C00B58955 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		11A5047A2D4B865600B58955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11A504822D4B898D00B58955 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		11A504842D4B8D1100B58955 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		11A634812D4A1EAB00055BC0 /* FirebasePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A634992D4A204500055BC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11A6349B2D4A204500055BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				11A504822D4B898D00B58955 /* AuthService.swift */,
+				11A504842D4B8D1100B58955 /* ViewModel.swift */,
 			);
 			path = GoogleSignIn;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				11A504832D4B898D00B58955 /* AuthService.swift in Sources */,
 				11A634AF2D4A27A000055BC0 /* LoginView.swift in Sources */,
 				11A634A12D4A204500055BC0 /* FirebasePracticeApp.swift in Sources */,
+				11A504852D4B8D1100B58955 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
