@@ -61,5 +61,5 @@ actor AuthService {
 }
 
 enum AuthError: Error {
-    case noCurrentUser, emailNotVerified
+    case noCurrentUser, emailNotVerified, noRootViewController, missingIDToken
 }
